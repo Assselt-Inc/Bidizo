@@ -1,7 +1,8 @@
 
 # Bidizo
 
-A decentralised, blockchain based and crypto-first auction and NFT marketplace. This features auction deals, NFTS, valuable antiques and acummulation.
+A decentralised, blockchain based and crypto-first auction and NFT marketplace. This features auction deals, NFTS, valuable antiques and acummulation. 
+Auction for Real Humans
 
 
 ## Roadmap
