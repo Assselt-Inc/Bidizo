@@ -27,17 +27,33 @@ const SignIn = () => {
                     <div className={styles.subtitle}>Sign up with Open account</div>
                     <div className={styles.btns}>
                         <button className={cn("button-stroke", styles.button)}>
-                            <img src="/images/google.svg" alt="Google"/>
+                            <Image
+                                className={styles.pic}
+                                src="/images/google.svg"
+                                srcDark="/images/google.svg"
+                                alt="Google"
+                            />
                             Google
                         </button>
                         <button className={cn("button-stroke", styles.button)}>
                             <Image
-                                className={styles.pic}
+                                className={"mr-1"}
                                 src="/images/apple-dark.svg"
                                 srcDark="/images/apple-light.svg"
                                 alt="Apple"
                             />
                             Apple ID
+                        </button>
+                    </div>
+                    <div className={"w-full mt-2"}>
+                        <button className={"button-stroke w-full px-[16px]"}>
+                            <Image
+                                className={"w-6 mr-[10px] fill-white"}
+                                src="/images/safari-pinned-tab.svg"
+                                srcDark="/images/safari-pinned-tab.svg"
+                                alt="Apple"
+                            />
+                            Verify with World ID
                         </button>
                     </div>
                 </div>
@@ -60,9 +76,6 @@ const SignIn = () => {
                         icon="lock"
                     />
                     <button className={cn("button", styles.button)}>Sign in</button>
-                    <div className={styles.note}>
-                        This site is protected by reCAPTCHA and the Google Privacy Policy.
-                    </div>
                     <div className={styles.info}>
                         Don’t have an account?{" "}
                         <Link className={styles.link} href="/sign-up">
