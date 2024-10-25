@@ -67,14 +67,14 @@ const SignIn = () => {
                         required
                         icon="mail"
                     />
-                    <TextInput
-                        className={styles.field}
-                        name="password"
-                        type="password"
-                        placeholder="Password"
-                        required
-                        icon="lock"
-                    />
+                    {/*<TextInput*/}
+                    {/*    className={styles.field}*/}
+                    {/*    name="password"*/}
+                    {/*    type="password"*/}
+                    {/*    placeholder="Password"*/}
+                    {/*    required*/}
+                    {/*    icon="lock"*/}
+                    {/*/>*/}
                     <button className={cn("button", styles.button)}>Sign in</button>
                     <div className={styles.info}>
                         Don’t have an account?{" "}

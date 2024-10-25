@@ -1,17 +1,16 @@
-import React from "react";
-import useDarkMode from "use-dark-mode";
+import React, {useMemo} from "react";
 
-const Image = ({ className, src, srcDark, srcSet, srcSetDark, alt }) => {
-  const darkMode = useDarkMode(false);
+const Image = ({className, src, srcDark, srcSet, srcSetDark, alt}) => {
+    const darkMode = useMemo(() => false, []);
 
-  return (
-    <img
-      className={className}
-      srcSet={darkMode.value ? srcSetDark : srcSet}
-      src={darkMode.value ? srcDark : src}
-      alt={alt}
-    />
-  );
+    return (
+        <img
+            className={className}
+            srcSet={darkMode.value ? srcSetDark : srcSet}
+            src={darkMode.value ? srcDark : src}
+            alt={alt}
+        />
+    );
 };
 
 export default Image;
