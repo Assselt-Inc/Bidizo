@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +35,42 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+=======
+
+# Bidizo
+
+A decentralised, blockchain based and crypto-first auction and NFT marketplace. This features auction deals, NFTS, valuable antiques, loyalts and coins acummulation. 
+Auction for Real Humans
+
+
+## Roadmap
+
+- Real Human Authentication
+
+- Wallet Integration
+
+- Crypto Platforms Integration
+
+- Industrial Compliance 
+
+
+
+## Acknowledgements
+
+ - [Blockchain & Decentralised architecture](https://www.researchgate.net/publication/344646823_Framework_for_decentralised_architectural_design_BIM_and_Blockchain_integration)
+
+
+## Support
+
+For support, email support@assselt.inc or join our Slack channel.
+
+
+## Tech Stack
+
+**Server:** Python, Kotlin, BlockChain, Cryptography, Android, HTML, CSS, TailwindCSS, NextJS, PostGres, Supabase
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+>>>>>>> origin/main
